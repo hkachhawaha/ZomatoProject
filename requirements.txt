@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pandas
+pyarrow
+langchain
+langchain-groq
+streamlit
+datasets
+pydantic-settings
+pytest
+httpx

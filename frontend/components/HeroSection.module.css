@@ -1,0 +1,92 @@
+.hero {
+  margin-bottom: var(--space-xl);
+  animation: fadeInUp 0.5s ease;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  background: var(--color-primary-light);
+  border-radius: var(--radius-pill);
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--color-primary);
+  margin-bottom: var(--space-md);
+}
+
+.badgeIcon {
+  width: 16px;
+  height: 16px;
+}
+
+.headline {
+  font-size: 38px;
+  font-weight: 800;
+  color: var(--color-text-primary);
+  line-height: 1.15;
+  letter-spacing: -1px;
+  margin-bottom: var(--space-sm);
+}
+
+.headlineAccent {
+  font-style: italic;
+  background: linear-gradient(135deg, var(--color-primary), #ff6b7a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.contextBlurb {
+  font-size: 15px;
+  color: var(--color-text-secondary);
+  max-width: 500px;
+  line-height: 1.6;
+}
+
+/* Empty / Loading States */
+.emptyState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 320px;
+  gap: var(--space-md);
+  text-align: center;
+}
+
+.emptyIcon {
+  font-size: 48px;
+  opacity: 0.6;
+}
+
+.emptyTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.emptyDescription {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  max-width: 360px;
+}
+
+.loadingContainer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.loadingCard {
+  height: 280px;
+  border-radius: var(--radius-lg);
+}
+
+.loadingSmall {
+  height: 160px;
+  border-radius: var(--radius-lg);
+}
