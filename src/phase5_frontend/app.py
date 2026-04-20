@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+
 import streamlit as st
 from src.phase3_integration.filtering import filter_restaurants, get_unique_localities
 from src.phase4_recommendation.llm_service import get_recommendations
